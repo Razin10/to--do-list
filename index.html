@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do List</h1>
+     <strong><p>Current Time: <span id="currentTime"></span></p></strong>
+        <input type="text" id="taskInput" placeholder="Enter your task">
+        Add time...
+        <input type="time" id="timeInput" placeholder="add time..">
+        Add date...
+        <input type="date" id="dateInput" placeholder="add date">
+        <button onclick="addTask()">Add Task</button>
+        <ul id="taskList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
